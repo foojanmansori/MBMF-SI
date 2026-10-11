@@ -1,0 +1,23 @@
+# Python / Jupyter artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+# Local datasets (never commit large/sensitive experiment inputs)
+data/
+datasets/
+# Generated results and checkpoints
+results/
+results_*/
+*.pt
+*.pth
+*.ckpt
+*.npz
+# Local machine / editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

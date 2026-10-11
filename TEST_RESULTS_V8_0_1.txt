@@ -1,0 +1,10 @@
+...................................                                      [100%]
+=============================== warnings summary ===============================
+tests/test_v8_optimizer_equivalence.py::test_v8_one_step_training_equivalence
+  /mnt/data/mbmf_q1_v8_fixed/mbmf_q1_final_v8_bundle/mbmf_q1_infrastructure_v8.py:504: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+    return torch.sparse_csr_tensor(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+35 passed, 2 deselected, 1 warning in 8.37s
+..                                                                       [100%]
+2 passed, 35 deselected in 8.98s
